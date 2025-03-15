@@ -5,7 +5,6 @@ import Link from 'next/link'
 export default function Home() {
     return (
         <main className={styles.main}>
-
             {/* <Image src={'/E.svg'} fill alt='bg1' className={styles.bg1}/> */}
             {/* <Image src={'/R.svg'} fill alt='bg2' className={styles.bg2}/> */}
 
@@ -13,21 +12,14 @@ export default function Home() {
             <div className={styles.bg1} />
 
             <div className={styles.container}>
-                <div className={styles.img}>
-                    <Image
-                        src={'/Mlogo.svg'}
-                        alt="logo"
-                        width={132.8}
-                        height={64}
-                    />
-                </div>
+                <div className={styles.brand}>NeiroLink</div>
 
                 <h1 className={styles.title}>
-                    We are creating something amazing
+                    We have created a modern neural network
                 </h1>
 
                 <div className={styles.description}>
-                    We will launch our website soon!
+                    Try out NeiroLink and see for yourself how cool it is!
                 </div>
 
                 <Link href={'/'} target="_blank">
@@ -37,19 +29,15 @@ export default function Home() {
                 </Link>
             </div>
             <div className={styles.footer}>
-              <div className={styles.copyright}>
-                Copyright © 2025. Powered by Insites.
-              </div>
+                <div className={styles.copyright}>
+                    Copyright © 2025. Powered by Insites.
+                </div>
 
-              <div className={styles.socials}>
-                <Link href={'/'} target='_blank' className={styles.link}>
-                  <Image src={'/icon-x.svg'} width={24} height={24} alt='x'/>
-                </Link>
-
-                <Link href={'/'} target='_blank' className={styles.link}>
-                  <Image src={'/icon-x.svg'} width={24} height={24} alt='tg'/>
-                </Link>
-              </div>
+                <div className={styles.socials}>
+                    <Link href={'/'} target="_blank" className={styles.link}>
+                        <Image src={'/tg.svg'} width={36} height={36} alt="x" />
+                    </Link>
+                </div>
             </div>
         </main>
     )
