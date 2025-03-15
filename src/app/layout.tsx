@@ -7,8 +7,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-    title: 'Insites Marketplace',
-    description: 'Insites Marketplace',
+    title: 'NeiroLink',
+    description: 'NeiroLink',
 }
 
 export default function RootLayout({

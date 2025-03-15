@@ -22,19 +22,25 @@ export default function Home() {
                     Try out NeiroLink and see for yourself how cool it is!
                 </div>
 
-                <Link href={'/'} target="_blank">
-                    <button className={styles.btn} type="button" tabIndex={-1}>
-                        Open Telegram BOT
-                    </button>
+                <Link
+                    href={'https://t.me/Mr_gpt_answer_bot'}
+                    target="_blank"
+                    className={styles.btn}
+                >
+                    Open Telegram BOT
                 </Link>
             </div>
             <div className={styles.footer}>
                 <div className={styles.copyright}>
-                    Copyright © 2025. Powered by Insites.
+                    Copyright © 2025. Powered by NeiroLink.
                 </div>
 
                 <div className={styles.socials}>
-                    <Link href={'/'} target="_blank" className={styles.link}>
+                    <Link
+                        href={'https://t.me/Mr_gpt_answer_bot'}
+                        target="_blank"
+                        className={styles.link}
+                    >
                         <Image src={'/tg.svg'} width={36} height={36} alt="x" />
                     </Link>
                 </div>
